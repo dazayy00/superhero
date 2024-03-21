@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>
+	Consumo de RestAPI de Superheroes
+</p>
+<div>
+	<label>Name:</label>
+	<input type="string" id="name">
+</div>
+<div>
+	<label>image:</label>
+	<input type="string" id="image">
+</div>
+<div>
+	<label>appearance:</label>
+	<input type="text" id="appearance">
+</div>
+<div>
+	<label>biography:</label>
+	<input type="text" id="biography">
+</div>
+
+<button onclick="postUser()">POST USER</button>
+<button onclick="getUsers()">GET USERS</button>
+<br><br><br>
+<div id="resultado"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="callrestapi.js"></script>
+<link rel="stylesheet" href="index.css">
+</body>
+</html>
